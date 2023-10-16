@@ -1,0 +1,46 @@
+
+.modern-war{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: object;
+    color: white;
+}
+
+.modern-images{
+    height: 100%;
+}
+
+.m-modern{
+    height: 550px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.m-h2{
+    font-family: object;
+    font-size: 18px;
+    color: white;
+}
+.m-p{
+   
+    font-size: 14px;
+    font-family: noto;
+}
+.ul-m>li{
+    font-size: 14px;
+    font-family: noto;
+}
+.m-a{
+    width: 131px;
+    padding:8px 30px;
+    box-sizing: border-box;
+    font-size: 14px;
+   font-family: object;
+   background-color: var(--bg-2);
+   transition: 300ms;
+}
+
+.m-a:hover{
+    border: 1px solid white;
+}

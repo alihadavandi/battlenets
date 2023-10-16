@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg-1:#3b3d42;
+    --bg-2: #292b33;
+}
+@font-face {
+    font-family:noto ;
+    src: url(../fonts/Noto/NotoSans.eot);
+    src: url(../fonts/Noto/NotoSans.ttf);
+    src: url(../fonts/Noto/NotoSans.woff);
+    src: url(../fonts/Noto/NotoSans.woff2);
+}
+
+@font-face {
+    font-family:bilzzard ;
+    src: url(../fonts/Bilzzard/Blizzard-Regular.eot);
+    src: url(../fonts/Bilzzard/Blizzard-Regular.ttf);
+    src: url(../fonts/Bilzzard/Blizzard-Regular.woff);
+    src: url(../fonts/Bilzzard/Blizzard-Regular.woff2);
+}
+
+@font-face {
+    font-family: object;
+    src: url(../fonts/object-sans/ObjectSans-Bold.eot);
+    src: url(../fonts/object-sans/ObjectSans-Bold.ttf);
+    src: url(../fonts/object-sans/ObjectSans-Bold.woff);
+    src: url(../fonts/object-sans/ObjectSans-Bold.woff2);
+}
+
+
+.wrapper{
+    width: 100%;
+    display: none;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px !important;
+    background-color: gainsboro;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #292b33;
+    border-radius: 5px;
+    height: 5px;
+}
+
+
+.darks{
+    background-color:white !important;
+    color:whitesmoke!important;
+  }

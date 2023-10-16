@@ -1,0 +1,25 @@
+
+.s-h2{
+    text-align: center !important;
+   
+    width: 100%;
+}
+
+.s-p{
+    text-align: center !important;
+   font-size: 14px;
+    width: 100%;
+}
+
+.s-ul{
+    text-align: center !important;
+   
+    width: 100%;
+    list-style: none;
+}
+.s-a{
+    text-align: center !important;
+   
+   position:relative;
+   left: calc(50% - 110px / 2);
+}
